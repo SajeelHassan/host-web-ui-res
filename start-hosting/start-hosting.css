@@ -1,0 +1,119 @@
+.signup-title{
+    color:#336B87;
+    text-align: center;
+    margin:0rem auto;
+    /* margin-top:2rem; */
+    margin-top:1rem;
+    /* width:80%; */
+    width:90%;
+}
+.signup-form{
+    /* width:60%; */
+    width:90%;
+    margin:1rem auto;
+    padding:1rem;
+}
+.signup-form label,
+.signup-form select,
+.signup-form input{
+    display:block;
+    margin-top: 1rem;
+    margin-top: 0.5rem;
+}
+.signup-form select,
+.signup-form input{
+    width:100%;
+    border:2px solid #44779055;
+    background:white;
+    /* padding-top:1rem ; */
+     padding-top:0.5rem ;
+    /* font-size: 1.5rem; */
+    font-size: 1.0rem;
+    font-family: inherit;
+   
+
+}
+.signup-form select:focus,
+.signup-form input:focus {
+    outline:none;
+    border:2px solid #336B87;
+    border-radius: 8px;
+
+}
+.signup-form input[type=checkbox]{
+    display:inline;
+    /* width:1.5rem;
+    height: 1.5rem; */
+    width:1.0rem;
+    height: 1.0rem;
+    /* background:green; */
+    margin-top: 1rem;
+}
+.signup-form label{
+    /* font-size: 1.5rem; */
+    font-size: 1.0rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.signup-form label[for*="agree"]{
+    display:inline;
+    vertical-align: bottom;
+    font-size:0.9rem;
+}
+.signup-form button {
+    margin-top:1rem;
+    display:block;
+    /* width:8rem; */
+    width:7rem;
+    height:3rem;
+    background:white;
+    color:#336B87;
+    border:2px solid #336B87;
+    border-radius: 8px;
+    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.signup-form button:hover {
+    background:#336B87;
+    color:white;
+}
+@media (min-width:48rem){
+    .signup-title{
+        margin-top:2rem;
+        width:80%;
+    }
+    .signup-form{
+        width:60%;
+    }
+    .signup-form input{ 
+        padding-top:1rem ;
+        font-size: 1.5rem;
+    }
+    .signup-form label[for*="agree"]{
+        
+        font-size:1.5rem;
+    }
+    .signup-form select,
+.signup-form input{ 
+    padding-top:1rem ;    
+    font-size: 1.5rem;
+}
+    .signup-form input[type=checkbox]{
+        width:1.5rem;
+        height: 1.5rem;
+        background:green;
+        
+    }
+    .signup-form label{
+        font-size: 1.5rem;
+        
+    }
+    .signup-form button {
+        width:8rem;
+        font-size: 1.5rem;
+    }
+    
+}
